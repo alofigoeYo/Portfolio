@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  height: 80px;
+  background-color: purple;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: brown;
+  background-color: bisque;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+li a:hover {
+  background-color: burlywood;
+}
+
+.T {
+  padding: 10px;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.fside {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.compositon {
+  padding: 30px 20px;
+  text-align: center;
+  background-color: #f3f3f3;
+  font-size: 18px;
+}
+
+.bdy {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 10px;
+  gap: 20px;
+}
+
+.bodyo,
+.bodyt,
+.bodyth {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  background-color: #eee;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.bodyo {
+  background-color: #d9534f;
+  color: white;
+}
+.bodyt {
+  background-color: #a0522d;
+}
+.bodyth {
+  background-color: #5e4b4b;
+  color: white;
+}
+
+.webfoto {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cta-buttons {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: rebeccapurple;
+}
+
+.contact {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: purple;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact input,
+.contact textarea {
+  width: 90%;
+  max-width: 500px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: purple;
+  color: white;
+  margin-top: 30px;
+}
